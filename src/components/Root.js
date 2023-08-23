@@ -14,7 +14,7 @@ function Root() {
           <main>
             <Outlet />
           </main>
-        </Provider> 
+        </Provider>
       </div>
     </div>
   );

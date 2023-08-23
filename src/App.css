@@ -309,7 +309,8 @@
   margin-top: 5px;
   border-radius: 15px 15px 15px 15px;
   background-color: #202023;
-  color: white;
+  color: #40c4ff;
+  box-shadow: 0px 0px 3px 5px rgba(111, 237, 255, 0.5);
   padding: 3px 10px 10px 10px;
   font-weight: 900;
   border: none;
@@ -456,6 +457,16 @@ abbr {
   /* Color on hover */
 }
 
+@media only screen and (min-width: 768px) {
+  .todo-item {
+    transform: scale(0.8);
+  }
+  
+  .todos {
+    height: 39vh;
+  }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .App-header {
     font-size: 12px;
@@ -531,6 +542,11 @@ abbr {
   .todo-item {
     /* transform: scale(0.5); */  
     padding: 5px 10px;
+  }
+
+  .todo-icon {
+    position: absolute;
+    top: -30px;
   }
 
 }
